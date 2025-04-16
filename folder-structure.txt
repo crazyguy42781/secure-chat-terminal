@@ -1,0 +1,10 @@
+secure-chat-terminal/
+├── keys/                # Stores user's private and public keys
+├── messages/            # Stores encrypted messages in JSONL format
+├── src/
+│   ├── main.rs          # Entry point with CLI loop
+│   ├── cli.rs           # Command parsing and handling
+│   ├── encryption.rs    # Key generation, encryption, decryption
+│   └── storage.rs       # Saving and loading messages and keys
+├── Cargo.toml           # Project dependencies
+
